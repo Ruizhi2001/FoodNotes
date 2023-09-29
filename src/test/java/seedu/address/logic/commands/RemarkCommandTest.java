@@ -1,7 +1,11 @@
 package seedu.address.logic.commands;
 
+import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
+import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import seedu.address.commons.core.index.Index;
 import seedu.address.logic.Messages;
 import seedu.address.model.Model;
@@ -10,9 +14,6 @@ import seedu.address.model.UserPrefs;
 import seedu.address.model.person.Person;
 import seedu.address.model.person.Remark;
 import seedu.address.testutil.PersonBuilder;
-
-import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
-import static seedu.address.testutil.TypicalPersons.getTypicalAddressBook;
 
 class RemarkCommandTest {
     private static final String REMARK_STUB = "Some remark";
@@ -43,5 +44,4 @@ class RemarkCommandTest {
         CommandTestUtil.assertCommandFailure(remarkCommand, this.model,
                 Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
     }
-    
 }
