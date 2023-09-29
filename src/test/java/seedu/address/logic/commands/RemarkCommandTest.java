@@ -43,4 +43,5 @@ class RemarkCommandTest {
         CommandTestUtil.assertCommandFailure(remarkCommand, this.model,
                 Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
     }
+    
 }
