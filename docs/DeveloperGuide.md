@@ -339,7 +339,9 @@ We propose to enhance the sorting of the list of stalls to sort the stalls with 
 
 **Proposed Solution:**
 We propose to enhance the command box to be resizable so that the user can see the whole command they have entered the command box at the same time if it is long.
+
 1. Edit the command box to be resizable.
+
 --------------------------------------------------------------------------------------------------------------------
 
 <div style="page-break-after: always;"></div>
